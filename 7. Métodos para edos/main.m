@@ -74,3 +74,4 @@ T = 10*pi;
 [x5,Y5] = Euler(f,[a,T],y0,npassos); 
 figure(6), plot(x5,Y5,'-*'),title('Euler')
 
+% Rebienta todo -> no es abs. estable
